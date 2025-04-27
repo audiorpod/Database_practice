@@ -97,3 +97,21 @@ where payment_method = 'credit_card';  -- This increases the total by 10% for al
 
 -- Example: This will update the 'total' field for all orders paid via 'credit_card', applying a 10% increase to the original amount.
 
+/*
+Summary of Case Examples:
+Inserting Data: You can add multiple rows with different values for each column.
+
+Selecting Data: Use SELECT to retrieve all or specific columns. You can limit the rows returned using LIMIT (MySQL) or TOP (SQL Server).
+
+Sorting Data: Use ORDER BY to sort by one or more columns, and you can specify ascending or descending order.
+
+Deleting Data: The DELETE command removes rows from the table based on conditions.
+
+Dropping a Table: DROP TABLE removes the table and all its data permanently from the database.
+
+Filtering Data: Use the WHERE clause to filter data based on specific conditions (e.g., payment method or order date).
+
+Aggregation: The SUM() function with GROUP BY allows you to aggregate data, such as calculating total sales by product.
+
+Updating Data: The UPDATE command modifies existing records based on conditions.
+*/
